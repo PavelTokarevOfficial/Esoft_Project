@@ -25,7 +25,8 @@ namespace Esoft_Project
 
         private void buttonOpenAgents_Click(object sender, EventArgs e)
         {
-
+            Form formAgents = new FormAgents();
+            formAgents.Show();
         }
 
         private void buttonOpenRealEstates_Click(object sender, EventArgs e)

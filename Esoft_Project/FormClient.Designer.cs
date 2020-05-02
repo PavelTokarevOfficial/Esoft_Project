@@ -42,12 +42,12 @@
             this.buttonAdd = new System.Windows.Forms.Button();
             this.buttonEdit = new System.Windows.Forms.Button();
             this.buttonDel = new System.Windows.Forms.Button();
+            this.Id = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.FirstName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.MiddleName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.LastName = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.DealShare = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader4 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader5 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
-            this.columnHeader6 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.SuspendLayout();
             // 
             // LabelFirstName
@@ -133,12 +133,12 @@
             // listViewClient
             // 
             this.listViewClient.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
-            this.columnHeader1,
-            this.columnHeader2,
-            this.columnHeader3,
-            this.columnHeader4,
-            this.columnHeader5,
-            this.columnHeader6});
+            this.Id,
+            this.FirstName,
+            this.MiddleName,
+            this.LastName,
+            this.DealShare,
+            this.columnHeader1});
             this.listViewClient.FullRowSelect = true;
             this.listViewClient.GridLines = true;
             this.listViewClient.HideSelection = false;
@@ -183,35 +183,30 @@
             this.buttonDel.UseVisualStyleBackColor = false;
             this.buttonDel.Click += new System.EventHandler(this.buttonDel_Click);
             // 
+            // Id
+            // 
+            this.Id.Text = "id";
+            // 
+            // FirstName
+            // 
+            this.FirstName.Text = "Имя";
+            // 
+            // MiddleName
+            // 
+            this.MiddleName.Text = "Фамилия";
+            // 
+            // LastName
+            // 
+            this.LastName.Text = "Отчество";
+            // 
+            // DealShare
+            // 
+            this.DealShare.Text = "Телефон";
+            this.DealShare.Width = 101;
+            // 
             // columnHeader1
             // 
-            this.columnHeader1.Text = "ID";
-            this.columnHeader1.Width = 29;
-            // 
-            // columnHeader2
-            // 
-            this.columnHeader2.Text = "Имя";
-            this.columnHeader2.Width = 74;
-            // 
-            // columnHeader3
-            // 
-            this.columnHeader3.Text = "Фамилия";
-            this.columnHeader3.Width = 71;
-            // 
-            // columnHeader4
-            // 
-            this.columnHeader4.Text = "Отчество";
-            this.columnHeader4.Width = 76;
-            // 
-            // columnHeader5
-            // 
-            this.columnHeader5.Text = "Телефон";
-            this.columnHeader5.Width = 70;
-            // 
-            // columnHeader6
-            // 
-            this.columnHeader6.Text = "Почта";
-            this.columnHeader6.Width = 205;
+            this.columnHeader1.Text = "Почта";
             // 
             // FormClient
             // 
@@ -255,11 +250,11 @@
         private System.Windows.Forms.Button buttonAdd;
         private System.Windows.Forms.Button buttonEdit;
         private System.Windows.Forms.Button buttonDel;
+        private System.Windows.Forms.ColumnHeader Id;
+        private System.Windows.Forms.ColumnHeader FirstName;
+        private System.Windows.Forms.ColumnHeader MiddleName;
+        private System.Windows.Forms.ColumnHeader LastName;
+        private System.Windows.Forms.ColumnHeader DealShare;
         private System.Windows.Forms.ColumnHeader columnHeader1;
-        private System.Windows.Forms.ColumnHeader columnHeader2;
-        private System.Windows.Forms.ColumnHeader columnHeader3;
-        private System.Windows.Forms.ColumnHeader columnHeader4;
-        private System.Windows.Forms.ColumnHeader columnHeader5;
-        private System.Windows.Forms.ColumnHeader columnHeader6;
     }
 }
