@@ -15,11 +15,11 @@ namespace Esoft_Project
     public partial class RealEstateSet
     {
         public int Id { get; set; }
-        public string Addres_City { get; set; }
-        public string Addres_Street { get; set; }
-        public string Addres_House { get; set; }
-        public string Addres_Number { get; set; }
-        public Nullable<double> Coodinate_latitude { get; set; }
+        public string Address_City { get; set; }
+        public string Address_Street { get; set; }
+        public string Address_House { get; set; }
+        public string Address_Number { get; set; }
+        public Nullable<double> Coordinate_latitude { get; set; }
         public Nullable<double> Coordinate_longitude { get; set; }
         public int Type { get; set; }
         public Nullable<double> TotalArea { get; set; }

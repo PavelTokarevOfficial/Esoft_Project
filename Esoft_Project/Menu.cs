@@ -31,6 +31,8 @@ namespace Esoft_Project
 
         private void buttonOpenRealEstates_Click(object sender, EventArgs e)
         {
+            Form formRealEstate = new FormRealEstate();
+            formRealEstate.Show();
 
         }
 

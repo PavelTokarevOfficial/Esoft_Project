@@ -13,10 +13,10 @@ namespace Esoft_Project
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class WFTutorialEntities2 : DbContext
+    public partial class WFTutorialEntities5 : DbContext
     {
-        public WFTutorialEntities2()
-            : base("name=WFTutorialEntities2")
+        public WFTutorialEntities5()
+            : base("name=WFTutorialEntities5")
         {
         }
     

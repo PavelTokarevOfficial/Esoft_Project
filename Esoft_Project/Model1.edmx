@@ -31,11 +31,11 @@
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
-          <Property Name="Addres_City" Type="nvarchar(max)" />
-          <Property Name="Addres_Street" Type="nvarchar(max)" />
-          <Property Name="Addres_House" Type="nvarchar(max)" />
-          <Property Name="Addres_Number" Type="nvarchar(max)" />
-          <Property Name="Coodinate_latitude" Type="float" />
+          <Property Name="Address_City" Type="nvarchar(max)" />
+          <Property Name="Address_Street" Type="nvarchar(max)" />
+          <Property Name="Address_House" Type="nvarchar(max)" />
+          <Property Name="Address_Number" Type="nvarchar(max)" />
+          <Property Name="Coordinate_latitude" Type="float" />
           <Property Name="Coordinate_longitude" Type="float" />
           <Property Name="Type" Type="int" Nullable="false" />
           <Property Name="TotalArea" Type="float" />
@@ -79,11 +79,11 @@
             <PropertyRef Name="Id" />
           </Key>
           <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
-          <Property Name="Addres_City" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="Addres_Street" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="Addres_House" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="Addres_Number" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
-          <Property Name="Coodinate_latitude" Type="Double" />
+          <Property Name="Address_City" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Address_Street" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Address_House" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Address_Number" Type="String" MaxLength="Max" FixedLength="false" Unicode="true" />
+          <Property Name="Coordinate_latitude" Type="Double" />
           <Property Name="Coordinate_longitude" Type="Double" />
           <Property Name="Type" Type="Int32" Nullable="false" />
           <Property Name="TotalArea" Type="Double" />
@@ -91,7 +91,7 @@
           <Property Name="Rooms" Type="Int32" />
           <Property Name="Floor" Type="Int32" />
         </EntityType>
-        <EntityContainer Name="WFTutorialEntities2" annotation:LazyLoadingEnabled="true">
+        <EntityContainer Name="WFTutorialEntities5" annotation:LazyLoadingEnabled="true">
           <EntitySet Name="AgentsSet" EntityType="Self.AgentsSet" />
           <EntitySet Name="ClientsSet" EntityType="Self.ClientsSet" />
           <EntitySet Name="RealEstateSet" EntityType="Self.RealEstateSet" />
@@ -101,7 +101,7 @@
     <!-- C-S mapping content -->
     <edmx:Mappings>
       <Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
-        <EntityContainerMapping StorageEntityContainer="Хранилище WFTutorialModelContainer" CdmEntityContainer="WFTutorialEntities2">
+        <EntityContainerMapping StorageEntityContainer="Хранилище WFTutorialModelContainer" CdmEntityContainer="WFTutorialEntities5">
           <EntitySetMapping Name="AgentsSet">
             <EntityTypeMapping TypeName="WFTutorialModel.AgentsSet">
               <MappingFragment StoreEntitySet="AgentsSet">
@@ -129,11 +129,11 @@
             <EntityTypeMapping TypeName="WFTutorialModel.RealEstateSet">
               <MappingFragment StoreEntitySet="RealEstateSet">
                 <ScalarProperty Name="Id" ColumnName="Id" />
-                <ScalarProperty Name="Addres_City" ColumnName="Addres_City" />
-                <ScalarProperty Name="Addres_Street" ColumnName="Addres_Street" />
-                <ScalarProperty Name="Addres_House" ColumnName="Addres_House" />
-                <ScalarProperty Name="Addres_Number" ColumnName="Addres_Number" />
-                <ScalarProperty Name="Coodinate_latitude" ColumnName="Coodinate_latitude" />
+                <ScalarProperty Name="Address_City" ColumnName="Address_City" />
+                <ScalarProperty Name="Address_Street" ColumnName="Address_Street" />
+                <ScalarProperty Name="Address_House" ColumnName="Address_House" />
+                <ScalarProperty Name="Address_Number" ColumnName="Address_Number" />
+                <ScalarProperty Name="Coordinate_latitude" ColumnName="Coordinate_latitude" />
                 <ScalarProperty Name="Coordinate_longitude" ColumnName="Coordinate_longitude" />
                 <ScalarProperty Name="Type" ColumnName="Type" />
                 <ScalarProperty Name="TotalArea" ColumnName="TotalArea" />
