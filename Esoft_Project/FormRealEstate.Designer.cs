@@ -293,10 +293,10 @@
             this.listViewRealEstateSet_Apartment.FullRowSelect = true;
             this.listViewRealEstateSet_Apartment.GridLines = true;
             this.listViewRealEstateSet_Apartment.HideSelection = false;
-            this.listViewRealEstateSet_Apartment.Location = new System.Drawing.Point(164, 34);
+            this.listViewRealEstateSet_Apartment.Location = new System.Drawing.Point(164, 36);
             this.listViewRealEstateSet_Apartment.MultiSelect = false;
             this.listViewRealEstateSet_Apartment.Name = "listViewRealEstateSet_Apartment";
-            this.listViewRealEstateSet_Apartment.Size = new System.Drawing.Size(781, 421);
+            this.listViewRealEstateSet_Apartment.Size = new System.Drawing.Size(782, 419);
             this.listViewRealEstateSet_Apartment.TabIndex = 21;
             this.listViewRealEstateSet_Apartment.UseCompatibleStateImageBehavior = false;
             this.listViewRealEstateSet_Apartment.View = System.Windows.Forms.View.Details;
@@ -308,14 +308,17 @@
             // columnHeader2
             // 
             this.columnHeader2.Text = "Улица";
+            this.columnHeader2.Width = 58;
             // 
             // columnHeader3
             // 
             this.columnHeader3.Text = "Номер дома";
+            this.columnHeader3.Width = 87;
             // 
             // columnHeader4
             // 
             this.columnHeader4.Text = "Номер квартиры";
+            this.columnHeader4.Width = 117;
             // 
             // columnHeader5
             // 
@@ -328,14 +331,17 @@
             // columnHeader7
             // 
             this.columnHeader7.Text = "Площадь";
+            this.columnHeader7.Width = 72;
             // 
             // columnHeader8
             // 
             this.columnHeader8.Text = "Площадь";
+            this.columnHeader8.Width = 72;
             // 
             // columnHeader9
             // 
             this.columnHeader9.Text = "Количество комнат";
+            this.columnHeader9.Width = 133;
             // 
             // columnHeader10
             // 
@@ -355,10 +361,10 @@
             this.listViewRealEstateSet_House.FullRowSelect = true;
             this.listViewRealEstateSet_House.GridLines = true;
             this.listViewRealEstateSet_House.HideSelection = false;
-            this.listViewRealEstateSet_House.Location = new System.Drawing.Point(164, 34);
+            this.listViewRealEstateSet_House.Location = new System.Drawing.Point(164, 36);
             this.listViewRealEstateSet_House.MultiSelect = false;
             this.listViewRealEstateSet_House.Name = "listViewRealEstateSet_House";
-            this.listViewRealEstateSet_House.Size = new System.Drawing.Size(781, 421);
+            this.listViewRealEstateSet_House.Size = new System.Drawing.Size(782, 421);
             this.listViewRealEstateSet_House.TabIndex = 22;
             this.listViewRealEstateSet_House.UseCompatibleStateImageBehavior = false;
             this.listViewRealEstateSet_House.View = System.Windows.Forms.View.Details;
@@ -367,30 +373,37 @@
             // columnHeader11
             // 
             this.columnHeader11.Text = "Город";
+            this.columnHeader11.Width = 95;
             // 
             // columnHeader12
             // 
             this.columnHeader12.Text = "Улица";
+            this.columnHeader12.Width = 73;
             // 
             // columnHeader13
             // 
             this.columnHeader13.Text = "Номер дома";
+            this.columnHeader13.Width = 102;
             // 
             // columnHeader14
             // 
             this.columnHeader14.Text = "Номер квартиры";
+            this.columnHeader14.Width = 121;
             // 
             // columnHeader15
             // 
             this.columnHeader15.Text = "Широта";
+            this.columnHeader15.Width = 79;
             // 
             // columnHeader16
             // 
             this.columnHeader16.Text = "Долгота";
+            this.columnHeader16.Width = 81;
             // 
             // columnHeader17
             // 
             this.columnHeader17.Text = "Площадь";
+            this.columnHeader17.Width = 82;
             // 
             // listViewRealEstateSet_Land
             // 
@@ -407,10 +420,10 @@
             this.listViewRealEstateSet_Land.FullRowSelect = true;
             this.listViewRealEstateSet_Land.GridLines = true;
             this.listViewRealEstateSet_Land.HideSelection = false;
-            this.listViewRealEstateSet_Land.Location = new System.Drawing.Point(164, 36);
+            this.listViewRealEstateSet_Land.Location = new System.Drawing.Point(164, 38);
             this.listViewRealEstateSet_Land.MultiSelect = false;
             this.listViewRealEstateSet_Land.Name = "listViewRealEstateSet_Land";
-            this.listViewRealEstateSet_Land.Size = new System.Drawing.Size(781, 419);
+            this.listViewRealEstateSet_Land.Size = new System.Drawing.Size(782, 419);
             this.listViewRealEstateSet_Land.TabIndex = 23;
             this.listViewRealEstateSet_Land.UseCompatibleStateImageBehavior = false;
             this.listViewRealEstateSet_Land.View = System.Windows.Forms.View.Details;
@@ -419,40 +432,48 @@
             // columnHeader18
             // 
             this.columnHeader18.Text = "Город";
+            this.columnHeader18.Width = 91;
             // 
             // columnHeader19
             // 
             this.columnHeader19.Text = "Улица";
+            this.columnHeader19.Width = 70;
             // 
             // columnHeader20
             // 
             this.columnHeader20.Text = "Номер дома";
+            this.columnHeader20.Width = 101;
             // 
             // columnHeader21
             // 
             this.columnHeader21.Text = "Номер квартиры";
+            this.columnHeader21.Width = 129;
             // 
             // columnHeader22
             // 
             this.columnHeader22.Text = "Широта";
+            this.columnHeader22.Width = 79;
             // 
             // columnHeader23
             // 
             this.columnHeader23.Text = "Долгота";
+            this.columnHeader23.Width = 86;
             // 
             // columnHeader24
             // 
             this.columnHeader24.Text = "Площадь";
+            this.columnHeader24.Width = 91;
             // 
             // columnHeader25
             // 
-            this.columnHeader25.Text = "Количество этажей";
+            this.columnHeader25.Text = "Этаж";
+            this.columnHeader25.Width = 133;
             // 
             // buttonAdd
             // 
             this.buttonAdd.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.buttonAdd.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonAdd.Location = new System.Drawing.Point(575, 473);
+            this.buttonAdd.Location = new System.Drawing.Point(460, 461);
             this.buttonAdd.Name = "buttonAdd";
             this.buttonAdd.Size = new System.Drawing.Size(87, 27);
             this.buttonAdd.TabIndex = 24;
@@ -464,7 +485,7 @@
             // 
             this.buttonEdit.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.buttonEdit.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonEdit.Location = new System.Drawing.Point(670, 473);
+            this.buttonEdit.Location = new System.Drawing.Point(555, 461);
             this.buttonEdit.Name = "buttonEdit";
             this.buttonEdit.Size = new System.Drawing.Size(87, 27);
             this.buttonEdit.TabIndex = 25;
@@ -476,7 +497,7 @@
             // 
             this.buttonDel.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.buttonDel.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonDel.Location = new System.Drawing.Point(764, 473);
+            this.buttonDel.Location = new System.Drawing.Point(649, 461);
             this.buttonDel.Name = "buttonDel";
             this.buttonDel.Size = new System.Drawing.Size(87, 27);
             this.buttonDel.TabIndex = 26;
@@ -503,7 +524,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(957, 519);
+            this.ClientSize = new System.Drawing.Size(951, 498);
             this.Controls.Add(this.comboBoxType);
             this.Controls.Add(this.buttonDel);
             this.Controls.Add(this.buttonEdit);

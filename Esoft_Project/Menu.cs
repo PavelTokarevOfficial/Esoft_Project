@@ -36,19 +36,10 @@ namespace Esoft_Project
 
         }
 
-        private void buttonOpenDemands_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void buttonOpenSupplies_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void buttonOpenDeals_Click(object sender, EventArgs e)
-        {
-
+            Form formSupply = new FormSupply();
+            formSupply.Show();
         }
     }
 }

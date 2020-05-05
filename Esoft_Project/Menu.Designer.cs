@@ -34,8 +34,8 @@
             this.buttonOpenAgents = new System.Windows.Forms.Button();
             this.buttonOpenRealEstates = new System.Windows.Forms.Button();
             this.buttonOpenDemands = new System.Windows.Forms.Button();
-            this.buttonOpenSupplies = new System.Windows.Forms.Button();
             this.buttonOpenDeals = new System.Windows.Forms.Button();
+            this.buttonOpenSupplies = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -92,27 +92,13 @@
             // 
             this.buttonOpenDemands.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.buttonOpenDemands.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonOpenDemands.Location = new System.Drawing.Point(2, 321);
+            this.buttonOpenDemands.Location = new System.Drawing.Point(2, 380);
             this.buttonOpenDemands.Margin = new System.Windows.Forms.Padding(10);
             this.buttonOpenDemands.Name = "buttonOpenDemands";
             this.buttonOpenDemands.Size = new System.Drawing.Size(265, 48);
-            this.buttonOpenDemands.TabIndex = 4;
-            this.buttonOpenDemands.Text = "Предложения";
+            this.buttonOpenDemands.TabIndex = 5;
+            this.buttonOpenDemands.Text = "Потребности";
             this.buttonOpenDemands.UseVisualStyleBackColor = false;
-            this.buttonOpenDemands.Click += new System.EventHandler(this.buttonOpenDemands_Click);
-            // 
-            // buttonOpenSupplies
-            // 
-            this.buttonOpenSupplies.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.buttonOpenSupplies.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonOpenSupplies.Location = new System.Drawing.Point(2, 380);
-            this.buttonOpenSupplies.Margin = new System.Windows.Forms.Padding(10);
-            this.buttonOpenSupplies.Name = "buttonOpenSupplies";
-            this.buttonOpenSupplies.Size = new System.Drawing.Size(265, 48);
-            this.buttonOpenSupplies.TabIndex = 5;
-            this.buttonOpenSupplies.Text = "Потребности";
-            this.buttonOpenSupplies.UseVisualStyleBackColor = false;
-            this.buttonOpenSupplies.Click += new System.EventHandler(this.buttonOpenSupplies_Click);
             // 
             // buttonOpenDeals
             // 
@@ -125,7 +111,19 @@
             this.buttonOpenDeals.TabIndex = 6;
             this.buttonOpenDeals.Text = "Сделки";
             this.buttonOpenDeals.UseVisualStyleBackColor = false;
-            this.buttonOpenDeals.Click += new System.EventHandler(this.buttonOpenDeals_Click);
+            // 
+            // buttonOpenSupplies
+            // 
+            this.buttonOpenSupplies.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.buttonOpenSupplies.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonOpenSupplies.Location = new System.Drawing.Point(2, 321);
+            this.buttonOpenSupplies.Margin = new System.Windows.Forms.Padding(10);
+            this.buttonOpenSupplies.Name = "buttonOpenSupplies";
+            this.buttonOpenSupplies.Size = new System.Drawing.Size(265, 48);
+            this.buttonOpenSupplies.TabIndex = 4;
+            this.buttonOpenSupplies.Text = "Предложения";
+            this.buttonOpenSupplies.UseVisualStyleBackColor = false;
+            this.buttonOpenSupplies.Click += new System.EventHandler(this.buttonOpenSupplies_Click);
             // 
             // Menu
             // 
@@ -134,8 +132,8 @@
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(279, 561);
             this.Controls.Add(this.buttonOpenDeals);
-            this.Controls.Add(this.buttonOpenSupplies);
             this.Controls.Add(this.buttonOpenDemands);
+            this.Controls.Add(this.buttonOpenSupplies);
             this.Controls.Add(this.buttonOpenRealEstates);
             this.Controls.Add(this.buttonOpenAgents);
             this.Controls.Add(this.buttonOpenClients);
@@ -155,8 +153,8 @@
         private System.Windows.Forms.Button buttonOpenAgents;
         private System.Windows.Forms.Button buttonOpenRealEstates;
         private System.Windows.Forms.Button buttonOpenDemands;
-        private System.Windows.Forms.Button buttonOpenSupplies;
         private System.Windows.Forms.Button buttonOpenDeals;
+        private System.Windows.Forms.Button buttonOpenSupplies;
     }
 }
 
