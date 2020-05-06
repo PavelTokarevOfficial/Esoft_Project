@@ -99,6 +99,7 @@
             this.buttonOpenDemands.TabIndex = 5;
             this.buttonOpenDemands.Text = "Потребности";
             this.buttonOpenDemands.UseVisualStyleBackColor = false;
+            this.buttonOpenDemands.Click += new System.EventHandler(this.buttonOpenDemands_Click);
             // 
             // buttonOpenDeals
             // 

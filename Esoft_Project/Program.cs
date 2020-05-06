@@ -8,7 +8,7 @@ namespace Esoft_Project
 {
     static class Program
     {
-        public static WFTutorialEntities7 wftDb = new WFTutorialEntities7();
+        public static WFTutorialEntities8 wftDb = new WFTutorialEntities8();
         /// <summary>
         /// Главная точка входа для приложения.
         /// </summary>

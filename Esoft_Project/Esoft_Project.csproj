@@ -61,6 +61,15 @@
     <Compile Include="ClientsSet.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <Compile Include="DemandSet.cs">
+      <DependentUpon>Model1.tt</DependentUpon>
+    </Compile>
+    <Compile Include="FormDemand.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormDemand.Designer.cs">
+      <DependentUpon>FormDemand.cs</DependentUpon>
+    </Compile>
     <Compile Include="FormRealEstate.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,6 +123,9 @@
     <Compile Include="SupplySet.cs">
       <DependentUpon>Model1.tt</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="FormDemand.resx">
+      <DependentUpon>FormDemand.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FormRealEstate.resx">
       <DependentUpon>FormRealEstate.cs</DependentUpon>
     </EmbeddedResource>
