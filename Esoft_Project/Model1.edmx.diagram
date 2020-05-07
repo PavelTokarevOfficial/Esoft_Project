@@ -4,13 +4,14 @@
   <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
     <!-- Diagram content (shape and connector positions) -->
     <edmx:Diagrams>
-      <Diagram DiagramId="7d9077424332433e856830cfe0e94886" Name="Diagram1" ZoomLevel="55">
-        <EntityTypeShape EntityType="WFTutorialModel.AgentsSet" Width="1.5" PointX="0.5" PointY="7.25" IsExpanded="true" />
-        <EntityTypeShape EntityType="WFTutorialModel.ClientsSet" Width="1.5" PointX="0.5" PointY="4.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="WFTutorialModel.DealSet" Width="1.5" PointX="8.125" PointY="4" IsExpanded="true" />
-        <EntityTypeShape EntityType="WFTutorialModel.DemandSet" Width="1.5" PointX="4.875" PointY="5.375" IsExpanded="true" />
-        <EntityTypeShape EntityType="WFTutorialModel.RealEstateSet" Width="1.5" PointX="0.5" PointY="0.5" IsExpanded="true" />
-        <EntityTypeShape EntityType="WFTutorialModel.SupplySet" Width="1.5" PointX="4.75" PointY="2" IsExpanded="true" />
+      <Diagram DiagramId="2f5b6cf2c88848a188e96a05060171e7" Name="Diagram1" ZoomLevel="64">
+        <EntityTypeShape EntityType="WFTutorialModel.AgentsSet" Width="1.5" PointX="0.5" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="WFTutorialModel.ClientsSet" Width="1.5" PointX="0.5" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="WFTutorialModel.DealSet" Width="1.5" PointX="7.125" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="WFTutorialModel.DemandSet" Width="1.5" PointX="4.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="WFTutorialModel.RealEstateSet" Width="1.5" PointX="0.5" PointY="0.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="WFTutorialModel.SupplySet" Width="1.5" PointX="4.75" PointY="2.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="WFTutorialModel.Users" Width="1.5" PointX="7.125" PointY="0.875" IsExpanded="true" />
         <AssociationConnector Association="WFTutorialModel.FK_DemandSet_AgentsSet" ManuallyRouted="false" />
         <AssociationConnector Association="WFTutorialModel.FK_SupplySet_AgentsSet" ManuallyRouted="false" />
         <AssociationConnector Association="WFTutorialModel.FK_DemandSet_ClientsSet" ManuallyRouted="false" />

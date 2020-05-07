@@ -15,6 +15,7 @@ namespace Esoft_Project
         public Menu()
         {
             InitializeComponent();
+            if (FormAuthorization.users.type == "agent") buttonOpenAgents.Enabled = false;
         }
 
         private void buttonOpenClients_Click(object sender, EventArgs e)
