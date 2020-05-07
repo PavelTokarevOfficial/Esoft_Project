@@ -464,7 +464,7 @@
             // 
             this.buttonAdd.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.buttonAdd.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonAdd.Location = new System.Drawing.Point(5, 474);
+            this.buttonAdd.Location = new System.Drawing.Point(702, 461);
             this.buttonAdd.Name = "buttonAdd";
             this.buttonAdd.Size = new System.Drawing.Size(87, 27);
             this.buttonAdd.TabIndex = 24;
@@ -476,7 +476,7 @@
             // 
             this.buttonEdit.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.buttonEdit.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonEdit.Location = new System.Drawing.Point(100, 474);
+            this.buttonEdit.Location = new System.Drawing.Point(797, 461);
             this.buttonEdit.Name = "buttonEdit";
             this.buttonEdit.Size = new System.Drawing.Size(87, 27);
             this.buttonEdit.TabIndex = 25;
@@ -488,7 +488,7 @@
             // 
             this.buttonDel.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.buttonDel.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonDel.Location = new System.Drawing.Point(194, 474);
+            this.buttonDel.Location = new System.Drawing.Point(891, 461);
             this.buttonDel.Name = "buttonDel";
             this.buttonDel.Size = new System.Drawing.Size(87, 27);
             this.buttonDel.TabIndex = 26;
@@ -515,7 +515,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.ClientSize = new System.Drawing.Size(1387, 548);
+            this.ClientSize = new System.Drawing.Size(992, 497);
             this.Controls.Add(this.comboBoxType);
             this.Controls.Add(this.buttonDel);
             this.Controls.Add(this.buttonEdit);
