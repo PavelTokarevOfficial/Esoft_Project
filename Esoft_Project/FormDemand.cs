@@ -212,13 +212,14 @@ namespace Esoft_Project
             listViewDemand_Land.Items.Clear();
             foreach (DemandSet demandSet in Program.wftDb.DemandSet)
             {
+                
                 if (demandSet.Type == 0)
                 {
                     ListViewItem item = new ListViewItem(new string[]
                     {
-                        demandSet.IdAgent.ToString(),
-                        demandSet.IdClient.ToString(),
-                        demandSet.Type.ToString(),
+                        demandSet.IdAgent.ToString() + ". " + demandSet.AgentsSet.FirstName + " " + " " + demandSet.AgentsSet.MiddleName + " " + demandSet.AgentsSet.LastName,
+                        demandSet.IdClient.ToString() + ". " + demandSet.ClientsSet.FirstName + " " + " " + demandSet.ClientsSet.MiddleName + " " + demandSet.ClientsSet.LastName,
+                        demandSet.Type.ToString()+". Квартира",
                         demandSet.MinPrice.ToString(),
                         demandSet.MaxPrice.ToString(),
                         demandSet.MinArea.ToString(),
@@ -235,9 +236,9 @@ namespace Esoft_Project
                 {
                     ListViewItem item = new ListViewItem(new string[]
                     {
-                        demandSet.IdAgent.ToString(),
-                        demandSet.IdClient.ToString(),
-                        demandSet.Type.ToString(),
+                        demandSet.IdAgent.ToString() + ". " + demandSet.AgentsSet.FirstName + " " + " " + demandSet.AgentsSet.MiddleName + " " + demandSet.AgentsSet.LastName,
+                        demandSet.IdClient.ToString() + ". " + demandSet.ClientsSet.FirstName + " " + " " + demandSet.ClientsSet.MiddleName + " " + demandSet.ClientsSet.LastName,
+                        demandSet.Type.ToString() +". Квартира",
                         demandSet.MinPrice.ToString(),
                         demandSet.MaxPrice.ToString(),
                         demandSet.MinArea.ToString(),
@@ -252,9 +253,9 @@ namespace Esoft_Project
                 {
                     ListViewItem item = new ListViewItem(new string[]
                     {
-                        demandSet.IdAgent.ToString(),
-                        demandSet.IdClient.ToString(),
-                        demandSet.Type.ToString(),
+                        demandSet.IdAgent.ToString()  + ". " + demandSet.AgentsSet.FirstName + " " + " " + demandSet.AgentsSet.MiddleName + " " + demandSet.AgentsSet.LastName,
+                        demandSet.IdClient.ToString()  + ". " + demandSet.ClientsSet.FirstName + " " + " " + demandSet.ClientsSet.MiddleName + " " + demandSet.ClientsSet.LastName,
+                        demandSet.Type.ToString()  +". Квартира",
                         demandSet.MinPrice.ToString(),
                         demandSet.MaxPrice.ToString(),
                         demandSet.MinArea.ToString(),

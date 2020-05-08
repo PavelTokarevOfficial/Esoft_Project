@@ -102,5 +102,7 @@ namespace Esoft_Project
                 textBoxDealShare.Text = "";
             }
         }
+
+        
     }
 }

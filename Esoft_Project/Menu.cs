@@ -16,6 +16,7 @@ namespace Esoft_Project
         {
             InitializeComponent();
             if (FormAuthorization.users.type == "agent") buttonOpenAgents.Enabled = false;
+            labelHello.Text = "Приветствую тебя, " + FormAuthorization.users.login;
         }
 
         private void buttonOpenClients_Click(object sender, EventArgs e)
@@ -54,5 +55,7 @@ namespace Esoft_Project
             Form formDeal = new FormDeal();
             formDeal.Show();
         }
+
+        
     }
 }

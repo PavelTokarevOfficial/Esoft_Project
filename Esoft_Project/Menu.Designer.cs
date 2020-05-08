@@ -36,13 +36,15 @@
             this.buttonOpenDemands = new System.Windows.Forms.Button();
             this.buttonOpenDeals = new System.Windows.Forms.Button();
             this.buttonOpenSupplies = new System.Windows.Forms.Button();
+            this.labelHello = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(2, 44);
+            this.pictureBox1.Location = new System.Drawing.Point(7, 48);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(265, 90);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -51,9 +53,12 @@
             // 
             // buttonOpenClients
             // 
-            this.buttonOpenClients.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.buttonOpenClients.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.buttonOpenClients.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.buttonOpenClients.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonOpenClients.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonOpenClients.Location = new System.Drawing.Point(2, 159);
+            this.buttonOpenClients.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.buttonOpenClients.Location = new System.Drawing.Point(7, 162);
             this.buttonOpenClients.Margin = new System.Windows.Forms.Padding(10);
             this.buttonOpenClients.Name = "buttonOpenClients";
             this.buttonOpenClients.Size = new System.Drawing.Size(265, 48);
@@ -64,9 +69,12 @@
             // 
             // buttonOpenAgents
             // 
-            this.buttonOpenAgents.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.buttonOpenAgents.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.buttonOpenAgents.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.buttonOpenAgents.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonOpenAgents.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonOpenAgents.Location = new System.Drawing.Point(2, 213);
+            this.buttonOpenAgents.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.buttonOpenAgents.Location = new System.Drawing.Point(7, 230);
             this.buttonOpenAgents.Margin = new System.Windows.Forms.Padding(10);
             this.buttonOpenAgents.Name = "buttonOpenAgents";
             this.buttonOpenAgents.Size = new System.Drawing.Size(265, 48);
@@ -77,9 +85,12 @@
             // 
             // buttonOpenRealEstates
             // 
-            this.buttonOpenRealEstates.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.buttonOpenRealEstates.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.buttonOpenRealEstates.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.buttonOpenRealEstates.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonOpenRealEstates.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonOpenRealEstates.Location = new System.Drawing.Point(2, 267);
+            this.buttonOpenRealEstates.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.buttonOpenRealEstates.Location = new System.Drawing.Point(7, 298);
             this.buttonOpenRealEstates.Margin = new System.Windows.Forms.Padding(10);
             this.buttonOpenRealEstates.Name = "buttonOpenRealEstates";
             this.buttonOpenRealEstates.Size = new System.Drawing.Size(265, 48);
@@ -90,9 +101,12 @@
             // 
             // buttonOpenDemands
             // 
-            this.buttonOpenDemands.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.buttonOpenDemands.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.buttonOpenDemands.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.buttonOpenDemands.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonOpenDemands.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonOpenDemands.Location = new System.Drawing.Point(2, 380);
+            this.buttonOpenDemands.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.buttonOpenDemands.Location = new System.Drawing.Point(7, 434);
             this.buttonOpenDemands.Margin = new System.Windows.Forms.Padding(10);
             this.buttonOpenDemands.Name = "buttonOpenDemands";
             this.buttonOpenDemands.Size = new System.Drawing.Size(265, 48);
@@ -103,9 +117,12 @@
             // 
             // buttonOpenDeals
             // 
-            this.buttonOpenDeals.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.buttonOpenDeals.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.buttonOpenDeals.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.buttonOpenDeals.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonOpenDeals.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonOpenDeals.Location = new System.Drawing.Point(2, 434);
+            this.buttonOpenDeals.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.buttonOpenDeals.Location = new System.Drawing.Point(7, 502);
             this.buttonOpenDeals.Margin = new System.Windows.Forms.Padding(10);
             this.buttonOpenDeals.Name = "buttonOpenDeals";
             this.buttonOpenDeals.Size = new System.Drawing.Size(265, 48);
@@ -116,9 +133,12 @@
             // 
             // buttonOpenSupplies
             // 
-            this.buttonOpenSupplies.BackColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.buttonOpenSupplies.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.buttonOpenSupplies.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.buttonOpenSupplies.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonOpenSupplies.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.buttonOpenSupplies.Location = new System.Drawing.Point(2, 321);
+            this.buttonOpenSupplies.ForeColor = System.Drawing.SystemColors.ControlLightLight;
+            this.buttonOpenSupplies.Location = new System.Drawing.Point(7, 366);
             this.buttonOpenSupplies.Margin = new System.Windows.Forms.Padding(10);
             this.buttonOpenSupplies.Name = "buttonOpenSupplies";
             this.buttonOpenSupplies.Size = new System.Drawing.Size(265, 48);
@@ -127,12 +147,22 @@
             this.buttonOpenSupplies.UseVisualStyleBackColor = false;
             this.buttonOpenSupplies.Click += new System.EventHandler(this.buttonOpenSupplies_Click);
             // 
+            // labelHello
+            // 
+            this.labelHello.AutoSize = true;
+            this.labelHello.Location = new System.Drawing.Point(12, 9);
+            this.labelHello.Name = "labelHello";
+            this.labelHello.Size = new System.Drawing.Size(35, 13);
+            this.labelHello.TabIndex = 7;
+            this.labelHello.Text = "label1";
+            // 
             // Menu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.ClientSize = new System.Drawing.Size(279, 561);
+            this.Controls.Add(this.labelHello);
             this.Controls.Add(this.buttonOpenDeals);
             this.Controls.Add(this.buttonOpenDemands);
             this.Controls.Add(this.buttonOpenSupplies);
@@ -145,6 +175,7 @@
             this.Text = "Esoft";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -157,6 +188,7 @@
         private System.Windows.Forms.Button buttonOpenDemands;
         private System.Windows.Forms.Button buttonOpenDeals;
         private System.Windows.Forms.Button buttonOpenSupplies;
+        private System.Windows.Forms.Label labelHello;
     }
 }
 

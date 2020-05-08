@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormDeal));
             this.labelSypply = new System.Windows.Forms.Label();
             this.labelDemand = new System.Windows.Forms.Label();
             this.labelSellerCompanyDeductions = new System.Windows.Forms.Label();
@@ -50,106 +51,120 @@
             this.buttonAdd = new System.Windows.Forms.Button();
             this.buttonEdit = new System.Windows.Forms.Button();
             this.buttonDel = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // labelSypply
             // 
             this.labelSypply.AutoSize = true;
-            this.labelSypply.Location = new System.Drawing.Point(12, 9);
+            this.labelSypply.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelSypply.Location = new System.Drawing.Point(10, 87);
             this.labelSypply.Name = "labelSypply";
-            this.labelSypply.Size = new System.Drawing.Size(77, 13);
+            this.labelSypply.Size = new System.Drawing.Size(89, 15);
             this.labelSypply.TabIndex = 0;
             this.labelSypply.Text = "Предложение";
             // 
             // labelDemand
             // 
             this.labelDemand.AutoSize = true;
-            this.labelDemand.Location = new System.Drawing.Point(12, 49);
+            this.labelDemand.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelDemand.Location = new System.Drawing.Point(10, 133);
             this.labelDemand.Name = "labelDemand";
-            this.labelDemand.Size = new System.Drawing.Size(73, 13);
+            this.labelDemand.Size = new System.Drawing.Size(84, 15);
             this.labelDemand.TabIndex = 1;
             this.labelDemand.Text = "Потребности";
             // 
             // labelSellerCompanyDeductions
             // 
             this.labelSellerCompanyDeductions.AutoSize = true;
-            this.labelSellerCompanyDeductions.Location = new System.Drawing.Point(12, 110);
+            this.labelSellerCompanyDeductions.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelSellerCompanyDeductions.Location = new System.Drawing.Point(10, 203);
             this.labelSellerCompanyDeductions.Name = "labelSellerCompanyDeductions";
-            this.labelSellerCompanyDeductions.Size = new System.Drawing.Size(181, 13);
+            this.labelSellerCompanyDeductions.Size = new System.Drawing.Size(210, 15);
             this.labelSellerCompanyDeductions.TabIndex = 2;
             this.labelSellerCompanyDeductions.Text = "Стоимость услуг клинта-продавца";
             // 
             // labelAgentSellerDeductions
             // 
             this.labelAgentSellerDeductions.AutoSize = true;
-            this.labelAgentSellerDeductions.Location = new System.Drawing.Point(17, 149);
+            this.labelAgentSellerDeductions.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelAgentSellerDeductions.Location = new System.Drawing.Point(16, 248);
             this.labelAgentSellerDeductions.Name = "labelAgentSellerDeductions";
-            this.labelAgentSellerDeductions.Size = new System.Drawing.Size(211, 13);
+            this.labelAgentSellerDeductions.Size = new System.Drawing.Size(246, 15);
             this.labelAgentSellerDeductions.TabIndex = 3;
             this.labelAgentSellerDeductions.Text = "Отчисление риелтору клиента-продавца";
             // 
             // labelCustomerCompanyDeductions
             // 
             this.labelCustomerCompanyDeductions.AutoSize = true;
-            this.labelCustomerCompanyDeductions.Location = new System.Drawing.Point(12, 210);
+            this.labelCustomerCompanyDeductions.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelCustomerCompanyDeductions.Location = new System.Drawing.Point(10, 318);
             this.labelCustomerCompanyDeductions.Name = "labelCustomerCompanyDeductions";
-            this.labelCustomerCompanyDeductions.Size = new System.Drawing.Size(218, 13);
+            this.labelCustomerCompanyDeductions.Size = new System.Drawing.Size(252, 15);
             this.labelCustomerCompanyDeductions.TabIndex = 4;
             this.labelCustomerCompanyDeductions.Text = "Стоимость услуг для клиента-покупателя";
             // 
             // labelAgentCustomerDeductions
             // 
             this.labelAgentCustomerDeductions.AutoSize = true;
-            this.labelAgentCustomerDeductions.Location = new System.Drawing.Point(12, 249);
+            this.labelAgentCustomerDeductions.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.labelAgentCustomerDeductions.Location = new System.Drawing.Point(10, 363);
             this.labelAgentCustomerDeductions.Name = "labelAgentCustomerDeductions";
-            this.labelAgentCustomerDeductions.Size = new System.Drawing.Size(221, 13);
+            this.labelAgentCustomerDeductions.Size = new System.Drawing.Size(257, 15);
             this.labelAgentCustomerDeductions.TabIndex = 5;
             this.labelAgentCustomerDeductions.Text = "Отчисления риелтору клиента-покупателя";
             // 
             // comboBoxSupply
             // 
+            this.comboBoxSupply.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.comboBoxSupply.FormattingEnabled = true;
-            this.comboBoxSupply.Location = new System.Drawing.Point(15, 25);
+            this.comboBoxSupply.Location = new System.Drawing.Point(14, 105);
             this.comboBoxSupply.Name = "comboBoxSupply";
-            this.comboBoxSupply.Size = new System.Drawing.Size(218, 21);
+            this.comboBoxSupply.Size = new System.Drawing.Size(254, 23);
             this.comboBoxSupply.TabIndex = 6;
             this.comboBoxSupply.SelectedIndexChanged += new System.EventHandler(this.comboBoxSupply_SelectedIndexChanged);
             // 
             // comboBoxDemand
             // 
+            this.comboBoxDemand.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.comboBoxDemand.FormattingEnabled = true;
-            this.comboBoxDemand.Location = new System.Drawing.Point(15, 65);
+            this.comboBoxDemand.Location = new System.Drawing.Point(14, 151);
             this.comboBoxDemand.Name = "comboBoxDemand";
-            this.comboBoxDemand.Size = new System.Drawing.Size(218, 21);
+            this.comboBoxDemand.Size = new System.Drawing.Size(254, 23);
             this.comboBoxDemand.TabIndex = 7;
             this.comboBoxDemand.SelectedIndexChanged += new System.EventHandler(this.comboBoxDemand_SelectedIndexChanged);
             // 
             // textBoxSellerCompanyDeductions
             // 
-            this.textBoxSellerCompanyDeductions.Location = new System.Drawing.Point(15, 126);
+            this.textBoxSellerCompanyDeductions.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxSellerCompanyDeductions.Location = new System.Drawing.Point(14, 222);
             this.textBoxSellerCompanyDeductions.Name = "textBoxSellerCompanyDeductions";
-            this.textBoxSellerCompanyDeductions.Size = new System.Drawing.Size(218, 20);
+            this.textBoxSellerCompanyDeductions.Size = new System.Drawing.Size(254, 23);
             this.textBoxSellerCompanyDeductions.TabIndex = 8;
             // 
             // textBoxAgentSellerDeductions
             // 
-            this.textBoxAgentSellerDeductions.Location = new System.Drawing.Point(15, 165);
+            this.textBoxAgentSellerDeductions.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxAgentSellerDeductions.Location = new System.Drawing.Point(14, 267);
             this.textBoxAgentSellerDeductions.Name = "textBoxAgentSellerDeductions";
-            this.textBoxAgentSellerDeductions.Size = new System.Drawing.Size(218, 20);
+            this.textBoxAgentSellerDeductions.Size = new System.Drawing.Size(254, 23);
             this.textBoxAgentSellerDeductions.TabIndex = 9;
             // 
             // textCustomerCompanyDeductions
             // 
-            this.textCustomerCompanyDeductions.Location = new System.Drawing.Point(15, 226);
+            this.textCustomerCompanyDeductions.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textCustomerCompanyDeductions.Location = new System.Drawing.Point(14, 337);
             this.textCustomerCompanyDeductions.Name = "textCustomerCompanyDeductions";
-            this.textCustomerCompanyDeductions.Size = new System.Drawing.Size(218, 20);
+            this.textCustomerCompanyDeductions.Size = new System.Drawing.Size(254, 23);
             this.textCustomerCompanyDeductions.TabIndex = 10;
             // 
             // textBoxAgentCustomerDeductions
             // 
-            this.textBoxAgentCustomerDeductions.Location = new System.Drawing.Point(15, 265);
+            this.textBoxAgentCustomerDeductions.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.textBoxAgentCustomerDeductions.Location = new System.Drawing.Point(14, 382);
             this.textBoxAgentCustomerDeductions.Name = "textBoxAgentCustomerDeductions";
-            this.textBoxAgentCustomerDeductions.Size = new System.Drawing.Size(218, 20);
+            this.textBoxAgentCustomerDeductions.Size = new System.Drawing.Size(254, 23);
             this.textBoxAgentCustomerDeductions.TabIndex = 11;
             // 
             // ListViewDealSet
@@ -161,10 +176,13 @@
             this.columnHeader4,
             this.columnHeader5,
             this.columnHeader6});
+            this.ListViewDealSet.FullRowSelect = true;
+            this.ListViewDealSet.GridLines = true;
             this.ListViewDealSet.HideSelection = false;
-            this.ListViewDealSet.Location = new System.Drawing.Point(239, 9);
+            this.ListViewDealSet.Location = new System.Drawing.Point(281, 14);
+            this.ListViewDealSet.MultiSelect = false;
             this.ListViewDealSet.Name = "ListViewDealSet";
-            this.ListViewDealSet.Size = new System.Drawing.Size(763, 354);
+            this.ListViewDealSet.Size = new System.Drawing.Size(889, 408);
             this.ListViewDealSet.TabIndex = 12;
             this.ListViewDealSet.UseCompatibleStateImageBehavior = false;
             this.ListViewDealSet.View = System.Windows.Forms.View.Details;
@@ -202,39 +220,62 @@
             // 
             // buttonAdd
             // 
-            this.buttonAdd.Location = new System.Drawing.Point(765, 371);
+            this.buttonAdd.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.buttonAdd.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonAdd.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonAdd.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.buttonAdd.Location = new System.Drawing.Point(858, 428);
             this.buttonAdd.Name = "buttonAdd";
-            this.buttonAdd.Size = new System.Drawing.Size(75, 23);
+            this.buttonAdd.Size = new System.Drawing.Size(100, 36);
             this.buttonAdd.TabIndex = 13;
             this.buttonAdd.Text = "Добавить";
-            this.buttonAdd.UseVisualStyleBackColor = true;
+            this.buttonAdd.UseVisualStyleBackColor = false;
             this.buttonAdd.Click += new System.EventHandler(this.buttonAdd_Click);
             // 
             // buttonEdit
             // 
-            this.buttonEdit.Location = new System.Drawing.Point(846, 371);
+            this.buttonEdit.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.buttonEdit.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonEdit.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonEdit.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.buttonEdit.Location = new System.Drawing.Point(964, 428);
             this.buttonEdit.Name = "buttonEdit";
-            this.buttonEdit.Size = new System.Drawing.Size(75, 23);
+            this.buttonEdit.Size = new System.Drawing.Size(100, 36);
             this.buttonEdit.TabIndex = 14;
             this.buttonEdit.Text = "Изменить";
-            this.buttonEdit.UseVisualStyleBackColor = true;
+            this.buttonEdit.UseVisualStyleBackColor = false;
             this.buttonEdit.Click += new System.EventHandler(this.buttonEdit_Click);
             // 
             // buttonDel
             // 
-            this.buttonDel.Location = new System.Drawing.Point(927, 371);
+            this.buttonDel.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.buttonDel.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonDel.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.buttonDel.ForeColor = System.Drawing.SystemColors.HighlightText;
+            this.buttonDel.Location = new System.Drawing.Point(1070, 428);
             this.buttonDel.Name = "buttonDel";
-            this.buttonDel.Size = new System.Drawing.Size(75, 23);
+            this.buttonDel.Size = new System.Drawing.Size(100, 36);
             this.buttonDel.TabIndex = 15;
             this.buttonDel.Text = "Удалить";
-            this.buttonDel.UseVisualStyleBackColor = true;
+            this.buttonDel.UseVisualStyleBackColor = false;
             this.buttonDel.Click += new System.EventHandler(this.buttonDel_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(14, 14);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(197, 69);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 16;
+            this.pictureBox1.TabStop = false;
             // 
             // FormDeal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1013, 401);
+            this.ClientSize = new System.Drawing.Size(1181, 474);
+            this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.buttonDel);
             this.Controls.Add(this.buttonEdit);
             this.Controls.Add(this.buttonAdd);
@@ -251,9 +292,11 @@
             this.Controls.Add(this.labelSellerCompanyDeductions);
             this.Controls.Add(this.labelDemand);
             this.Controls.Add(this.labelSypply);
+            this.Font = new System.Drawing.Font("Roboto Light", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.Name = "FormDeal";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Сделки";
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -283,5 +326,6 @@
         private System.Windows.Forms.ColumnHeader columnHeader4;
         private System.Windows.Forms.ColumnHeader columnHeader5;
         private System.Windows.Forms.ColumnHeader columnHeader6;
+        private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
